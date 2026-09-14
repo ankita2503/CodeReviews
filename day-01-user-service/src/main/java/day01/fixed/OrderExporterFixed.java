@@ -11,11 +11,11 @@ import java.util.List;
  * TODO: your reviewed + corrected version of day01.original goes here.
  * Starting point below is a verbatim copy of the original.
  */
-class OrderExporter {
+class OrderExporterFixed {
 
     private final OrderRepository orders;
 
-    public OrderExporter(OrderRepository orders) {
+    public OrderExporterFixed(OrderRepository orders) {
         this.orders = orders;
     }
 

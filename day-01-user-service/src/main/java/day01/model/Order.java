@@ -1,5 +1,7 @@
 package day01.model;
 
+import java.math.BigDecimal;
+
 public class Order {
 
     private final String id;
@@ -16,7 +18,7 @@ public class Order {
         return id;
     }
 
-    public double getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
