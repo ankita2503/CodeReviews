@@ -33,7 +33,7 @@ class OrderExporter {
     public double total(String customerId) {
         double sum = 0;
         for (Order o : orders.findByCustomer(customerId)) {
-            sum += o.getAmount();
+            sum += o.getAmount().doubleValue();
         }
         return sum;
     }

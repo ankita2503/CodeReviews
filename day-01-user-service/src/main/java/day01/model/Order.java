@@ -5,10 +5,10 @@ import java.math.BigDecimal;
 public class Order {
 
     private final String id;
-    private final double amount;
+    private final BigDecimal amount;
     private final String status;
 
-    public Order(String id, double amount, String status) {
+    public Order(String id, BigDecimal amount, String status) {
         this.id = id;
         this.amount = amount;
         this.status = status;
