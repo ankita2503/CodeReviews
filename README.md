@@ -18,6 +18,12 @@ day-02-payment-service/
     model/                           Order, Payment, PaymentResult, gateway + repository ports
     original/PaymentProcessor.java   code under review - leave it broken
     fixed/PaymentProcessorFixed.java your corrected version
+day-03-add-discount-support/
+  pom.xml
+  src/main/java/day03/
+    model/                           TaxRates (supporting constants)
+    original/Order.java              code under review - leave it broken
+    fixed/                           your corrected version goes here
 ```
 
 Every module follows the same shape: `model/` holds the supporting types both
