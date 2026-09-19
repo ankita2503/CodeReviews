@@ -17,6 +17,7 @@
         <module>day-01-user-service</module>
         <module>day-02-payment-service</module>
         <module>day-03-add-discount-support</module>
+        <module>day-04-rate-limiter</module>
     </modules>
 
     <properties>

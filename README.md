@@ -24,6 +24,11 @@ day-03-add-discount-support/
     model/                           TaxRates (supporting constants)
     original/Order.java              code under review - leave it broken
     fixed/                           your corrected version goes here
+day-04-rate-limiter/
+  pom.xml
+  src/main/java/day04/
+    original/RateLimiterOriginal.java  code under review - leave it broken
+    fixed/                           your corrected version goes here
 ```
 
 Every module follows the same shape: `model/` holds the supporting types both
